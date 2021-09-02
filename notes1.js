@@ -2,7 +2,7 @@ var newNotes = [
 
 ];
 // alert('hi');
-
+var container$ = document.getElementById("table-container");
 var tbody$ = document.createElement("tbody");
 
 function displayNotes(inputNotes){
@@ -44,3 +44,23 @@ function addNew(){
     displayNotes(newNotes);
     clearFields();
 }
+
+table$.appendChild(tbody$);
+container$.appendChild(table$);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
