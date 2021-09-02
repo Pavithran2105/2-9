@@ -45,7 +45,7 @@ function addNew(){
     clearFields();
 }
 
-table$.appendChild(tbody$);
+// table$.appendChild(tbody$);
 container$.appendChild(table$);
 
 
